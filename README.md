@@ -3,21 +3,30 @@
 
 ## Linux
 
-You can use selenium on Ubuntu with Python3 by following steps:
+You can use selenium on Ubuntu with Python3 by following this steps:
 
-1. Install pip for python3 using:
+1. Clone the project (change myproject to whatever your want)
+git clone https://github.com/jrosell/chrome-selenium-python myproject
+cd myproject
+
+2. Install pip for python3 using:
 sudo apt-get install python3-pip 
 
-2. Install selenium for python3 using:
+3. Install selenium for python3 using:
 sudo python3 -m pip install -U selenium 
 
-3. Download current chromedriver from https://sites.google.com/a/chromium.org/chromedriver/downloads and extract it on some folder 
+4. If you need to update current chromedriver, download it from https://sites.google.com/a/chromium.org/chromedriver/downloads and extract it there.
+Currently using ChromeDriver 78.0.3904.70
 
-4. Reference chromedriver from your scripts.
+5. Reference chromedriver from your scripts.
 Change webdriver.Chrome call with your chromedriver path on run.py
+Having /home/jordi/chrome-selenium-python path, I'm using /home/jordi/chrome-selenium-pythonchromedriver
 
-5. Run it
+6. Run it
 python3 run.py
 
-6. Have fun!
+7. Have fun!
 Copy run.py script and edit your new scripts. 
+
+## Open for collaborations
+You can do pull resquests or open issues if you want to help.
