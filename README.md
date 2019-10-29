@@ -1,3 +1,7 @@
+# chrome-selenium-python
+### Use Google Chrome from your python scrips using WebDriver for navigating to web pages, user input, JavaScript execution, and more. 
+
+## Linux
 
 You can use selenium on Ubuntu with Python3 by following steps:
 
